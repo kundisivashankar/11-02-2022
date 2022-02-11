@@ -1,0 +1,27 @@
+sno=int(input('student nnumber:'))
+sname=input('student name:')
+s1=int(input('enter JAVA marks:'))
+s2=int(input('enter Operating system marks:'))
+s3=int(input('enter accounting and financing marks:'))
+s4=int(input('enter hindi marks:'))
+s5=int(input('enter environment education marks:'))
+s6=int(input('enter online business marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+print('total marks:',total)
+print('average marks:',avg)
+
+if avg>=91:
+    print('O Grade')
+elif avg>=81:
+    print('A Grade')
+elif avg>=71:
+    print('B Grade')
+elif avg>=61:
+    print('C Grade')
+elif avg>=51:
+    print('D Grade')
+elif avg>=41:
+    print('PASS')
+else:
+    print('FALI')
